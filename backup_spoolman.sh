@@ -19,6 +19,10 @@ if [ -d .git ]; then
     git add .
     git commit -m "Automatic Spoolman Docker config backup $TIMESTAMP"
     echo "Spoolman Docker config changes committed on $TIMESTAMP"
+
+    # Push to remote repository
+    git push origin master
+    echo "Spoolman changes pushed to remote repository"
   else
     echo "No Spoolman Docker config changes detected on $TIMESTAMP"
   fi
