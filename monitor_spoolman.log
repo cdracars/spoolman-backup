@@ -13667,3 +13667,23 @@ Watches established.
  D backups/spoolman_db_20250401_215956.sql
  M monitor_spoolman.log
 ?? backups/spoolman_db_20250401_220148.sql
+warning: LF will be replaced by CRLF in monitor_spoolman.log.
+The file will have its original line endings in your working directory
+[master 9edf87f] Automatic Spoolman Docker config backup 20250401_220159
+ 2 files changed, 20 insertions(+)
+ rename backups/{spoolman_db_20250401_215956.sql => spoolman_db_20250401_220148.sql} (100%)
+Spoolman Docker config changes committed on 20250401_220159
+To github.com:cdracars/spoolman-backup.git
+   5316819..9edf87f  master -> master
+Spoolman changes pushed to remote repository
+Spoolman database backed up to backups/spoolman_db_20250401_220159.sql
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY monitor_spoolman.log
+./monitor_spoolman.sh: line 11: backup_spoolman.sh: command not found
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY monitor_spoolman.log
+ D backups/spoolman_db_20250401_220007.sql
+ M monitor_spoolman.log
+?? backups/spoolman_db_20250401_220159.sql
