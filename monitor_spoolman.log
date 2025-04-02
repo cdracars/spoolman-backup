@@ -27333,3 +27333,30 @@ Watches established.
  D backups/spoolman_db_20250402_000416.sql
  M monitor_spoolman.log
 ?? backups/spoolman_db_20250402_000835.sql
+warning: LF will be replaced by CRLF in monitor_spoolman.log.
+The file will have its original line endings in your working directory
+[master f722276] Automatic Spoolman Docker config backup 20250402_000901
+ 2 files changed, 31 insertions(+)
+ rename backups/{spoolman_db_20250402_000416.sql => spoolman_db_20250402_000835.sql} (100%)
+Spoolman Docker config changes committed on 20250402_000901
+./monitor_spoolman.sh: line 11: backup_spoolman.sh: command not found
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY monitor_spoolman.log
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Spoolman changes pushed to remote repository
+Spoolman database backed up to backups/spoolman_db_20250402_000901.sql
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY monitor_spoolman.log
+./monitor_spoolman.sh: line 11: backup_spoolman.sh: command not found
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY monitor_spoolman.log
+ D backups/spoolman_db_20250402_000443.sql
+ M monitor_spoolman.log
+?? backups/spoolman_db_20250402_000901.sql
