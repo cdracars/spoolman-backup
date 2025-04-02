@@ -32,7 +32,7 @@ fi
 
 # Back up the database from the Docker container
 # Assuming your container is named 'spoolman' and uses SQLite
-docker exec spoolman sqlite3 /app/data/spoolman.db .dump > "$BACKUP_DIR/spoolman_db_$TIMESTAMP.sql"
+docker exec 4e086c712402 sqlite3 /app/data/spoolman.db .dump > "$BACKUP_DIR/spoolman_db_$TIMESTAMP.sql"
 
 # If it's a MySQL/MariaDB database instead, use:
 # docker exec spoolman_db mysqldump -u username -p password spoolman > "$BACKUP_DIR/spoolman_db_$TIMESTAMP.sql"
